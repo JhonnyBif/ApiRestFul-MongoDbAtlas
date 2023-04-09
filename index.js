@@ -7,17 +7,6 @@ const personRouters = require('./routes/personRoutes')
 
 const DB_USER = process.env.DB_USER
 const DB_PASSWORD = encodeURIComponent(process.env.DB_PASSWORD);
-//
-//
-//
-//
-//COLOCAR .ENV NO GIT INGORE
-//
-//
-//
-//
-///
-//
 
 //forma de ler JSON
 app.use(
